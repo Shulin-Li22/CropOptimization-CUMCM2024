@@ -8,19 +8,6 @@ openpyxl>=3.0.0
 # 优化求解
 pulp>=2.6.0
 
-# 可选：数据可视化
+# 数据可视化
 matplotlib>=3.5.0
 seaborn>=0.11.0
-
-# 可选：Jupyter notebook支持
-jupyter>=1.0.0
-ipykernel>=6.0.0
-
-# 开发和测试
-pytest>=6.0.0
-black>=21.0.0
-flake8>=3.9.0
-
-# 文档生成
-sphinx>=4.0.0
-sphinx-rtd-theme>=1.0.0
