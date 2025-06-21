@@ -44,9 +44,6 @@ python question2_modeling.py
 
 # 问题3：考虑相关性的高级模型
 python question3_modeling.py
-
-# 验证结果约束条件
-python question1_validator.py
 ```
 
 ## 📁 项目结构
@@ -64,8 +61,8 @@ python question1_validator.py
 ├── results/                # 结果文件
 │   ├── result1_1.xlsx            # 问题1场景1结果
 │   ├── result1_2.xlsx            # 问题1场景2结果
-│   ├── result2_strict.xlsx       # 问题2结果
-│   └── result3_advanced.xlsx     # 问题3结果
+│   ├── result2.xlsx              # 问题2结果
+│   └── result3.xlsx              # 问题3结果
 ├── docs/                   # 文档
 │   ├── problem_description.pdf   # 题目描述
 │   ├── model_explanation.md      # 模型详细说明
