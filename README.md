@@ -2,7 +2,7 @@
 
 ## 📖 项目简介
 
-这是2024年高教社杯全国大学生数学建模竞赛C题的完整解决方案。项目针对华北山区某乡村的农作物种植策略进行优化建模，综合考虑地块约束、作物轮作、市场需求、价格波动等多种因素，提供科学的种植决策支持。
+这是2024年高教社杯全国大学生数学建模竞赛C题的解决方案。项目针对华北山区某乡村的农作物种植策略进行优化建模，综合考虑地块约束、作物轮作、市场需求、价格波动等多种因素，提供科学的种植决策支持。
 
 ### 🎯 主要特色
 
@@ -59,12 +59,11 @@ python question1_validator.py
 ├── src/                    # 源代码
 │   ├── data_preprocessing.py    # 数据预处理模块
 │   ├── question1_modeling.py   # 问题1建模求解
-│   ├── question1_validator.py  # 约束条件验证
 │   ├── question2_modeling.py   # 问题2建模求解
 │   └── question3_modeling.py   # 问题3建模求解
 ├── results/                # 结果文件
-│   ├── result1_1_corrected.xlsx  # 问题1场景1结果
-│   ├── result1_2_corrected.xlsx  # 问题1场景2结果
+│   ├── result1_1.xlsx            # 问题1场景1结果
+│   ├── result1_2.xlsx            # 问题1场景2结果
 │   ├── result2_strict.xlsx       # 问题2结果
 │   └── result3_advanced.xlsx     # 问题3结果
 ├── docs/                   # 文档
@@ -210,12 +209,6 @@ python question1_validator.py
 - 感谢2024年高教社杯全国大学生数学建模竞赛提供的优秀题目
 - 感谢PuLP开发团队提供的优秀优化求解库
 - 感谢所有为开源社区贡献的开发者
-
-## 📞 联系方式
-
-- 项目维护者：[Your Name]
-- 邮箱：[your.email@example.com]
-- 项目主页：[https://github.com/yourusername/crop-optimization]
 
 ## 🔗 相关链接
 
