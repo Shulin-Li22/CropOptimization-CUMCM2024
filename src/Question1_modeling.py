@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-class CorrectedCropOptimizer:
+class Q1Optimizer:
     def __init__(self, data_file='processed_data.xlsx'):
         """初始化优化器，读取预处理数据"""
         print("正在加载数据...")
@@ -685,7 +685,7 @@ class CorrectedCropOptimizer:
 def main():
     """主函数"""
     try:
-        optimizer = CorrectedCropOptimizer('processed_data.xlsx')
+        optimizer = Q1Optimizer('processed_data.xlsx')
         results = optimizer.run_all_scenarios()
 
         print("\n" + "=" * 60)
