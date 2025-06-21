@@ -9,7 +9,7 @@ import seaborn as sns
 warnings.filterwarnings('ignore')
 
 
-class AdvancedCropOptimizer:
+class Q3CropOptimizer:
     """
     问题3：考虑农作物间相关性的高级优化器
     包含可替代性、互补性和价格-成本相关性建模
@@ -1501,7 +1501,7 @@ def main():
         print("包含可替代性、互补性、需求弹性、规模经济等因素")
 
         # 创建高级优化器
-        optimizer = AdvancedCropOptimizer('processed_data.xlsx')
+        optimizer = Q3CropOptimizer('processed_data.xlsx')
 
         # 运行高级优化
         results, total_profit = optimizer.run_advanced_optimization()
